@@ -68,6 +68,8 @@ img {
   border-top: none;
   border-left: none;
   border-right: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .head .container {
   display: flex;
@@ -80,15 +82,13 @@ img {
 .nav-list {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 .contacts-list {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 .contacts-item:not(:last-child) {
   margin-right: 50px;
@@ -100,8 +100,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  
 }
 .half-logo {
   color: var(--accent-color);
@@ -149,6 +148,10 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
+
 }
 /*-------BUTTONS------*/
 .btn {
@@ -171,7 +174,7 @@ img {
 .buttons-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .btn-item:not(:first-child) {
   margin-left: 8px;
@@ -204,7 +207,8 @@ img {
 /*---------END OF BUTTONS------*/
 
 .hero .container {
-  padding: 200px 252px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero {
   background-color: var(--second-color);
@@ -322,9 +326,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  
 }
 .picture-subtitle {
   font-weight: normal;
@@ -332,17 +334,16 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--font-color);
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  
 }
 .portfolio-description {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding: 20px 24px;
 }
 /*--------END OF PICTURES---------*/
 /*-------FOOTER-----------*/
-.bottom {
+footer {
   background-color: var(--second-color);
   padding-bottom: 60px;
   padding-top: 60px;
