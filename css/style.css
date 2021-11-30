@@ -13,7 +13,7 @@
   --main-bg: #f5f4fa;
   --adress-color: rgba(255, 255, 255, 0.6);
   --default-pt: 94px;
-  /* --section-pb: 94px; */
+  --section-pb: 94px;
 }
 
 body {
@@ -274,8 +274,8 @@ img {
 /*-----------TEAM--------*/
 .team {
   background-color: var(--main-bg);
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
+  padding-top: var(--default-pt);
+  padding-bottom: var(--default-pt);
 }
 .team-list {
   display: flex;
