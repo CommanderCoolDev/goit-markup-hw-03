@@ -63,7 +63,7 @@ img {
 /*--------HIDDEN------------*/
 .visually-hidden {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px); 
+  clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
@@ -74,11 +74,9 @@ img {
 /*--------END OF HIDDEN------------*/
 /*-------HEADER-------*/
 .head {
-  border: 1px solid #ececec;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  padding-top: 25px;
+  border-bottom: 1px solid #ececec;
+
+  padding-top: 24px;
   padding-bottom: 25px;
 }
 .head .container {
@@ -208,12 +206,10 @@ img {
 }
 /*---------END OF BUTTONS------*/
 
-.hero .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 .hero {
   background-color: var(--second-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 /*-------FEATURES-------*/
 .features {
@@ -328,6 +324,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 .picture-subtitle {
   font-weight: var(--text-normal);
